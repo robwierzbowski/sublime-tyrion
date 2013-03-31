@@ -314,17 +314,6 @@
       <!-- Markdown -->
       <dict>
         <key>name</key>
-        <string>Markup: List</string>
-        <key>scope</key>
-        <string>markup.list, markup.underline.link</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#338ACC</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
         <string>Markup: Heading</string>
         <key>scope</key>
         <string>markup.heading</string>
@@ -334,7 +323,7 @@
           <string>#CF6A4C</string>
         </dict>
       </dict>
-      <!-- For some reason this is heading tags -->
+      <!-- This is heading body -->
       <dict>
         <key>name</key>
         <string>✘ Meta.tag.«all»</string>
@@ -348,16 +337,25 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Markup: italic</string>
+        <string>Markup: List</string>
+        <key>scope</key>
+        <string>markup.list</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string>italic</string>
           <key>foreground</key>
-          <string>#FFFF75</string>
+          <string>#838383</string>
         </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markup: Link</string>
         <key>scope</key>
-        <string>markup.italic</string>
+        <string>markup.underline.link</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#338ACC</string>
+        </dict>
       </dict>
       <dict>
         <key>name</key>
@@ -368,6 +366,21 @@
         <dict>
           <key>fontStyle</key>
           <string>italic</string>
+          <key>background</key>
+          <string>#372F2F70</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markup: italic</string>
+        <key>scope</key>
+        <string>markup.italic</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>italic</string>
+          <key>foreground</key>
+          <string>#E0E073</string>
         </dict>
       </dict>
       <dict>
@@ -378,7 +391,7 @@
           <key>fontStyle</key>
           <string>bold</string>
           <key>foreground</key>
-          <string>#e5cd40</string>
+          <string>#E0E073</string>
         </dict>
         <key>scope</key>
         <string>markup.bold</string>
@@ -391,7 +404,7 @@
           <key>foreground</key>
           <string>#999999</string>
           <key>background</key>
-          <string>#191919</string>
+          <string>#13131390</string>
         </dict>
         <key>scope</key>
         <string>markup.raw</string>
